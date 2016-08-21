@@ -26,7 +26,11 @@
       "desiredCapabilities": {
         "browserName": "chrome",
         "javascriptEnabled": true,
-        "acceptSslCerts": true
+        "acceptSslCerts": true,
+        "chromeOptions": {
+          "args": ["start-fullscreen"],
+          "binary": "/usr/bin/google-chrome"
+        }
       }
     }
   }
