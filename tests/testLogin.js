@@ -10,7 +10,7 @@ export default {
       .navigate()
       .login(process.env.EMAIL, process.env.PASSWORD);
 
-    instancesPage.expect.element('@instancesListDescription').text.to.contain('Your first instance.');
+    instancesPage.expect.element('@instancesListDescription').text.to.contain('Moje prvni instance.');
 
     client.end();
   }
