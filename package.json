@@ -6,6 +6,7 @@
   "scripts": {
     "e2e": "nightwatch",
     "e2e-setup": "selenium-standalone install",
+    "e2e-start": "selenium-standalone start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
